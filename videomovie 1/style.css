@@ -1,0 +1,27 @@
+body{
+    color: #8b4513;
+    background-color:#f5fffa;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.main{
+    color:#8b4513;;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    text-shadow: 3px 2px #ebb995;
+}
+button{
+    all: unset;
+    border: 2px solid #55682f;
+    background-color: #55682f;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+
+}
