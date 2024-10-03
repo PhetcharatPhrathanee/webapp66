@@ -7,14 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<?php
-    require 'conn.php';
-    $sql = "SELECT * FROM actor";
-    $result = $conn->query($sql);
-    if(!$result){
-        die("Error : ". $conn->$conn_error);
-    }
-?>
 <h1 class=main>Movie</h1><br>
 <div>
         <a href='mainactor.php'><button> Main Actor</button></a>
